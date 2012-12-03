@@ -14,7 +14,7 @@ body
 
 .banner
 {
-    background-image: url(/bigbanner.jpg);
+    background-image: url(bigbanner.jpg);
     width: 960px;
     height: 400px;
     margin: 20px auto;
@@ -81,7 +81,7 @@ body
 {
     .banner
     {
-        background-image: url(/mediumbanner.jpg);
+        background-image: url(mediumbanner.jpg);
         width: 600px;
         height: 150px;
     }
