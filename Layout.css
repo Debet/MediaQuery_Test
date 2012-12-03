@@ -1,0 +1,111 @@
+﻿body
+{
+    font: 14px Georgia, serif;
+}
+#page-wrap
+{
+    margin: 40px auto;
+    color: white;
+}
+#page-wrap > div
+{
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+#header
+{
+    background: #eee;
+}
+#main-content
+{
+    background: #eee;
+}
+#secondary-one
+{
+    background: #eee;
+}
+#secondary-two
+{
+    background: #eee;
+}
+
+
+@media screen and (min-width: 901px)
+{
+    body
+    {
+        background: #999;
+    }
+    #page-wrap
+    {
+        width: 900px;
+        position: relative;
+    }
+    #main-content
+    {
+        float: left;
+        width: 440px;
+        min-height: 300px;
+        margin-left: 218px;
+    }
+    #secondary-one
+    {
+        width: 170px;
+        min-height: 300px;
+        position: absolute;
+        left: 0;
+        top: 64px;
+    }
+    #secondary-two
+    {
+        float: right;
+        width: 153px;
+        min-height: 300px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px)
+{
+    body
+    {
+        background: #666;
+    }
+    #page-wrap
+    {
+        width: 700px;
+    }
+    #main-content
+    {
+        float: right;
+        width: 440px;
+        min-height: 300px;
+    }
+    #secondary-one
+    {
+        float: left;
+        width: 170px;
+        min-height: 300px;
+    }
+    #secondary-two
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    body
+    {
+        background: #333;
+    }
+    #page-wrap
+    {
+        width: 548px;
+    }
+    #secondary-two
+    {
+        display: none;
+    }
+}
